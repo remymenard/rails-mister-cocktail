@@ -1,16 +1,19 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+<main id="swup" class="transition-fade">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://source.unsplash.com/1600x900/?drink");>
   <div class="container">
     <h1><%= @cocktail.name %></h1>
-    <p>A cool message</p>
-    <a class="btn btn-flat" href="#">Apply now</a>
   </div>
 </div>
 <div class="text-center">
 <br>
   <h2>Recipe</h2>
   <%= link_to "Add an ingredient", new_cocktail_dose_path(@cocktail) %>
+  <br><br>
   <% Dose.all.each do |dose| %>
+    <%= dose.ingredient.name %>
+     |
     <%= dose.description %>
     <%= link_to "Remove this ingredient", dose_path(dose), method: :delete, data: { confirm: "Are you sure?" } %>
   <% end %>
 </div>
+</main>

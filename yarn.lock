@@ -4078,6 +4078,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+kinet@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/kinet/-/kinet-2.2.1.tgz#25aa218fb510e7c649197041ed5a8901d3f29e08"
+  integrity sha512-UmnTPmnEokjxBeB3gPkOnTwRlIUaAeB+t21E+HJGzRKCGdJTUF3CTztK5yzzEuBQ1BZ0I0ovrY73+ctpPWFIOg==
+
 last-call-webpack-plugin@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/last-call-webpack-plugin/-/last-call-webpack-plugin-3.0.0.tgz#9742df0e10e3cf46e5c0381c2de90d3a7a2d7555"

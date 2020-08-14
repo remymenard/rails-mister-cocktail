@@ -10,6 +10,14 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
+  <nav class="navbar navbar-light bg-light justify-content-between">
+  <% link_to cocktails_path do %>
+  <a class="navbar-brand">Mister Cocktail</a>
+  <% end %>
+    <%= link_to new_cocktail_path do %>
+    <div class="btn btn-primary">New Cocktail</div>
+    <% end %>
+</nav>
     <div class="container">
     <%= yield %>
     </div>
